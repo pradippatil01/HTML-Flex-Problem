@@ -1,0 +1,46 @@
+
+
+  .maincontainer{
+    display: flex;
+    flex: 1;
+  }
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    margin: 0;
+  }
+
+header, footer {
+    background: yellowgreen;
+    height: 20vh;
+  }
+
+  header, footer, article, nav, aside {
+    padding: 1em;
+  }
+
+  article{
+    flex: 1;  
+    order: 1;}
+  aside{ 
+    background: beige;
+    flex: 0 0 20vw;
+    order: 2;
+      }
+ nav{
+    background: #D7E8D4;
+    flex: 0 0 10vw;
+    order: 3;
+}
+  
+
+
+
+
+
+
+
+
+
